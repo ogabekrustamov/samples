@@ -1,0 +1,172 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.container1, .container2, .container3{
+width: 95%;
+height: 100px;
+color: #e6e6e6;
+border: 3px solid rgb(103, 99, 99);
+border-radius: 4px;
+box-shadow: inset;
+text-align: center;
+padding-top: 10px;
+padding-left: 10px;
+padding-right:10px;
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: #1f1f20;
+}
+
+.huge {
+    display:flex;
+    flex-wrap: wrap;
+    width: 97%;
+    height: 420px;
+    background-color: black;
+    text-align: center;
+    border: 3px solid rgba(6, 5, 5, 0.765);
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    
+
+}
+.image{
+    width:100%;
+    height: 900px;
+    border: 2px black;
+    border-radius: 6px;
+    background-image:  url(iut.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+   
+
+
+.meta{
+    display: flex;
+    flex-wrap: wrap;
+    width:97%;
+    height:500px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(220, 206, 206) ;
+    border-radius: 8px;
+
+}
+.div1, .div2, .div3 , .div4{
+    flex: 1;
+    
+    width: 300px;
+    height: 310px;
+    border: 2px black;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left:20px;
+    color: rgb(0, 0, 0);
+   background-image: url(back.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top:250px;
+   
+    
+   
+}
+
+
+
+
+
+
+img{
+    width: 313px;
+    height: 310px;
+    background-size: cover;
+    border: 2px white;
+    border-radius: 10px;
+}
+
+  
+  header, main, footer {
+    padding: 20px;
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  /* Section styling */
+  section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 24px;
+  }
+  
+  /* Navigation styling */
+  nav {
+   
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    
+  }
+  h1{
+    text-align: center;
+  }
+
+
+    
+    
+    
+  
+  
